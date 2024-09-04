@@ -1,31 +1,12 @@
 @charset "UTF-8";
 
-
-
-section{
-	display: flex;
-	flex-direction: column;
-	width: 80%;
-	padding:20x;
-	border: 1px, solid #ccc;
-	margin: 10px auto;
-	height: 600px;
-	justify-content: space-between;
+section.Inicial{
+	margin: 60px auto;
+	width: 60%;
 }
 
-h1{
-	display: flex;
-	justify-content: center;
-}
-
-.flex-container{
-	
-	height: 100%;
-	padding:20x;
-	border: 1px, solid #ccc;
-	display: flex;
-	flex-direction: row wrap;
-	justify-content: space-around;
+div.row{
+	margin-top: 50px;
 }
 
 a{
@@ -50,8 +31,4 @@ a:hover {
 /* link selecionado */
 a:active {
     color: black;
-}
-
-*{
-	box-sizing: border-box;
 }
