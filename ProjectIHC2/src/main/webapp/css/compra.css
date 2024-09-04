@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+section.container{
+	margin-top: 60px;
+}
+
+div.row{
+	text-align: justify;
+}
+
+*{
+	box-sizing: border-box;
+}

@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+form.container{
+	margin: 100px auto;
+	width: 50%;
+	border: 2px solid #ccc;
+	border-radius: 2px;
+	padding: 20px
+}

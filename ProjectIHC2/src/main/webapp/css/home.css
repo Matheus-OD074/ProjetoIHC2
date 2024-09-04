@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+
+section{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	padding:20x;
+	border: 1px, solid #ccc;
+	margin: 10px auto;
+	height: 600px;
+	justify-content: space-between;
+}
+
+h1{
+	display: flex;
+	justify-content: center;
+}
+
+.flex-container{
+	
+	height: 100%;
+	padding:20x;
+	border: 1px, solid #ccc;
+	display: flex;
+	flex-direction: row wrap;
+	justify-content: space-around;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* link que ainda não foi visitado */
+a:link {
+   color: black;
+}
+
+/* link que foi visitado */
+a:visited {
+    color: black;
+}
+
+/* mouse over */
+a:hover {
+    color: black;
+}
+
+/* link selecionado */
+a:active {
+    color: black;
+}
+
+*{
+	box-sizing: border-box;
+}
