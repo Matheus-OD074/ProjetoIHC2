@@ -46,7 +46,7 @@
 			      		<option selected>SP</option>
 			      		<option>RJ</option>
 			      		<option>MG</option>
-			      		<option>BH</option>
+			      		<option>BA</option>
 			      		<option>ES</option>
 			    	</select>
 				</div>
@@ -60,11 +60,11 @@
 		  	
 		  		<div class="col-md-4">
 			  		<label for="dataExp" class="form-label">Data de vencimento</label>
-			    	<input type="date" class="form-control" id="dataExp">
+			    	<input type="date" class="form-control" id="dataExp" >
 		  		</div>
 		  	
 		  		<div class="col-md-3">
-			  		<label for="pin" class="form-label">PIN</label>
+			  		<label for="pin" class="form-label">CVV</label>
 			    	<input type="number" max="999" class="form-control" id="pin">
 		  		</div>
 		  	</div>
