@@ -65,7 +65,7 @@
 		  	
 		  		<div class="col-md-3">
 			  		<label for="pin" class="form-label">PIN</label>
-			    	<input type="number" maxlength="999" class="form-control" id="pin">
+			    	<input type="number" max="999" class="form-control" id="pin">
 		  		</div>
 		  	</div>
 		  	
